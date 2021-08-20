@@ -18,24 +18,6 @@ $(document).ready(function(){
     });
     //Fim do carrosssel de imagens
         
-    var fontSize = parseInt($("body").css("font-size"));
-    var auxFont = 0
     
-        $("#btnFontMaior").click(function() {
-            if (auxFont < 3){
-                fontSize = fontSize + 1
-                auxFont++
-                $("body").css({"font-size": fontSize});
-            }
-        })
-    
-    
-    $("#btnFontMenor").click(function() {
-        if (auxFont > 0) {
-            fontSize = fontSize - 1
-            auxFont--
-            $("body").css({"font-size": fontSize});
-        }
-    })
 
 })
