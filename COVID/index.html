@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" />
+    <link rel="stylesheet" href="css/index.css">
+    <script src="libs/jquery-3.6.0.min.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    
+    <header><!--Inicio do cabeçalho-->
+        <div id="logo">logo</div>
+        <div id="titulo">titulo</div>
+        <div id="div_botoes">
+            <button>N</button>
+            <button>A+</button>
+            <button>A-</button>
+        </div>
+    </header><!--FIM do cabeçalho-->
+
+     <nav class="navegacao_principal">
+        <ul class="menu_principal" id="menu">
+            <a href=""><li>Home</li></a>
+            <a href=""><li>Quem Somos</li></a>
+            <a href=""><li>Informações</li></a>
+            <a href=""><li>Cadastro</li></a>
+        </ul>
+     </nav>
+
+     <aside> <!--Início LIBRAS-->
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+            <script>
+                new window.VLibras.Widget('https://vlibras.gov.br/app');
+            </script>
+        </div>
+    </aside> <!--fim LIBRAS-->
+
+    <script src="js/index.js"></script>
+</body>
+</html>
+            TESTE
