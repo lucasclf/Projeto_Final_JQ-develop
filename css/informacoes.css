@@ -1,0 +1,92 @@
+/* Estilo do section principal */
+main {
+  background: radial-gradient(60% 50% at center, #c3e4e7 20%, #e4fbff 95%);
+}
+#main-section {
+  width: 90%;
+  min-width: 342px;
+  min-height: 700px;
+  margin: 2vh auto;
+  padding: 2vh;
+  /* border: 2px dotted rgb(22, 6, 61);
+  border-radius: 15px;
+  box-shadow: inset 0 0 50px 2px rgb(88, 78, 110); */
+  text-align: center;
+}
+
+#main-h3 {
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+}
+/* ---Estilo do range slider--- */
+.slidecontainer {
+  margin: 0px auto;
+  width: 70%; /* Width of the outside container */
+}
+/* The slider itself */
+.slider {
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 12px; /* Specified height */
+  background: #d1c0c0; /* Grey background */
+  border: 1px solid green;
+  border-radius: 5px;
+  outline: none; /* Remove outline */
+  opacity: 0.8; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+}
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 40px; /* Set a specific slider handle width */
+  height: 40px; /* Slider handle height */
+  border-radius: 50%;
+  background-image: url(../imagens/virus.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(100, 100, 100, 0);
+  cursor: pointer; /* Cursor on hover */
+}
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04aa6d; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+/* ---Fim do Estilo do range slider--- */
+
+/* Estilo dos boxes que exibem as porcentagens e fases:  */
+#contador {
+    font-weight: 600;
+    height: 21px;
+    margin-top: 1vh;
+}
+#contador2 {
+    font-weight: 600;
+    height: 21px;
+    margin-top: 1vh;
+}
+#fases-box {
+    width: 70%;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px dashed black;
+    text-align: center;
+}
+.tabela-setores {
+    margin: 1vh 20% 1vh auto; 
+    width: 80%;
+}
+.tabela-setores tr td:nth-child(n) {
+    font-weight: 600;
+}
+

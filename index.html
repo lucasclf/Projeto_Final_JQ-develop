@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" /> <!--FAVICON-->
+    <!-- JQUERY-->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/cupertino/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- JQUERY-->
+    
+    <!-- SLICK INICIO -->
+    <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="libs/slick/slick-theme.css">
+    <!-- SLICK FIM -->
+    <link rel="stylesheet" href="css/default.css">          <!--CSS PADRÃO-->
+    <link rel="stylesheet" href="css/index.css">            <!--CSS DO INDEX-->
+    <title>Home - Prefeitura</title>
+</head>
+<body>
+    
+    <header id="header"><!--Inicio do cabeçalho-->
+        
+        <a href="./index.html" id="logo">
+                <img src="imagens/logo2.png" alt="logo">
+        </a>
+        
+        <div id="titulo">
+            <p>
+                <strong>Portal de Atendimento</strong>
+                <br>
+                Prefeitura de Jay Query
+            </p>
+        </div>
+        
+        <div id="div_botoes">
+            <button id="btnNoturno">
+                <img src="imagens/noturno.png" alt="noturno">
+            </button>
+            <button id="btnFontMaior">A+</button>
+            <button id="btnFontMenor">A-</button>
+        </div>
+    </header><!--FIM do cabeçalho-->
+
+     <nav class="navegacao_principal">
+        <ul class="menu_principal" id="menu">
+            <a href="./index.html"><li>Home</li></a>
+            <a href="./quemSomos.html"><li>Quem Somos</li></a>
+            <a href="./informacoes.html"><li>Informações</li></a>
+            <a href="./cadastro.html"><li id="cadastro">Cadastro</li></a>
+        </ul>
+     </nav>
+     <main>
+        
+        <!-- Inicio so carrossel -->
+        <section id="tamanho">
+            <div class="carrossel">
+                <a href="quemSomos.html"><img src="imagens/foto5.jpg" alt="imagem"></a>
+                <a href="quemSomos.html"><img src="imagens/foto4.jpg" alt="imagem"></a>
+                <a href="quemSomos.html"><img src="imagens/foto2.jpg" alt="imagem"></a>
+                <a href="quemSomos.html"><img src="imagens/foto7.jpg" alt="imagem"></a>
+            </div>
+        </section>
+        <!-- Fim do carrossel -->
+         
+        
+        <!-- Início acordeon -->
+        <section id="accordion">
+            <h3 style="background: #2098D1; color: white">Protocolos de prevenção contra a COVID-19
+            </h3>
+            <div class="bloco">
+                <div id="img-accordion1">
+                    <img src="imagens/combate.png" alt="Imagem escudo contra covid">
+                </div>
+                <p style="margin-top: 40px;">
+                    Mantenha-se informado sobre os últimos desenvolvimentos a respeito do COVID-19 e faça o seguinte
+                    para cuidar da sua saúde e proteger a saúde de outras pessoas:
+                </p><br>
+                <ul>
+                    <li>Evite a aglomeração de pessoas, os contatos físicos e o aumento do fluxo de pessoas, em
+                        especial, em ambientes fechados; </li>
+                    <li>Recomenda-se o uso de máscara e boas práticas de uso e descarte;</li>
+                    <li>Se precisar sair de casa, evite tocar nos olhos, nariz e boca e lembre-se de manter uma
+                        distância de ao menos 1,5 metros das pessoas ao redor;</li>
+                    <li>Cuidados quanto à higienização das mãos e de objetos;</li>
+                    <li>Se sentir sintomas como febre, dor de garganta, tosse ou falta de ar procure um médico
+                        imediatamente.</li>
+                </ul><br>
+                <p>
+                    As recomendações têm como objetivo de apoiar o processo, garantindo boas práticas e cuidados
+                    sanitários para toda população.
+                </p>
+            </div>
+
+            <h3 style="background: #2098D1; color: white">Sintomas</h3>
+            <div id="problema">
+                <aside id="aside_img">
+                    <div><img src="imagens/febre.png" alt="Ilustração sintomas"></div>
+                    <div><img src="imagens/tosse.png" alt="Ilustração sintomas"></div>
+                    <div><img src="imagens/dor de cabeça.png" alt="Ilustração sintomas"></div>
+                    <div><img src="imagens/dor de gargante.png" alt="Ilustração sintomas"></div>
+                </aside>
+                <div id="texto">
+                    Em média, os sintomas aparecem após 5 ou 6 dias depois de ser infectado com o vírus. Porém, isso pode levar até 14 dias.
+                    <br><br>
+                    <span>
+                        Sintomas mais comuns:
+                    </span>
+                    <br><br>
+                    <ol style="margin-left: 20px;">
+                        <li>Febre</li>
+                        <li>Tosse seca</li>
+                        <li>Cansaço</li>
+                        <li>Dor de cabeça</li>
+                        <li>perda de paladar ou olfato</li>
+                    </ol>
+                    <br>
+                    <span>
+                        Sintomas graves:
+                    </span>
+                    <br><br>
+                    <ol style="margin-left: 20px;">
+                        <li>Dificuldade de respirar ou falta de ar</li>
+                        <li>Dor ou pressão no peito</li>
+                        <li>Perda de fala ou movimento</li>
+                    </ol>
+                </div>
+                      
+            </div>
+            <h3 style="background: #2098D1; color: white">O que fazer se você apresentar algum dos
+                sintomas?</h3>
+            <div>
+                <div class="img-accordion-hospital">
+                    <img src="imagens/hospital.png" alt="Hospital" id="hospital-icon">
+                </div>
+                <div class="flex">
+                    Em casos de sintomas mais leves a recomendação é de isolamento domiciliar no período de no mínimo
+                    14 dias para monitoramento dos sintomas. Depois disso, se os sintomas respiratórios e febre
+                    acabarem, a pessoa pode voltar à rotina normal com os devidos cuidados.
+                </div>
+                
+                <p id="margin-top">Em casos de sintomas mais graves o ideal é procurar atendimento médico <b>imediatamente</b>.
+                
+            
+            </div>
+            <h3 style="background: #2098D1; color: white">Existe algum tratamento?</h3>
+            <div class="caixa-4">
+                <div id="img-accordion-4">
+                    <img src="imagens/med.png">
+                </div>
+                <p style="margin-top: 40px;">
+                    Atualmente Não existe remédio nem um tratamento específico. A orientação médica é baseada
+                    através do
+                    quadro clínico que a pessoa apresenta.
+                </p><br>
+                <p>
+                    Em casos leves, é indicado o isolamento, repouso e o consumo de bastante água e dependendo de cada
+                    caso
+                    é adotado medidas clínicas com o uso de medicamentos para aliviar os sintomas (como antitérmicos e
+                    analgésicos).<br><br>
+                    Quadros mais graves podem requerer internação hospitalar.
+                </p>
+            </div>
+            <h3 style="background: #2098D1; color: white"> Vacinas aprovadas para uso emergencial no Brasil</h3>
+            <div class="caixa-5">
+                <div id="img-accordion-6">
+                    <img src="imagens/seringa2.png" alt="vacina">
+                </div>
+                <p style="margin-top: 40px;">
+                    As vacinas adotadas pelo SUS passaram por todas as etapas necessárias para a criação de um novo
+                    imunizante e cumprem a critérios científicos rigorosos adotados pela Agência Nacional de Vigilância
+                    Sanitária (Anvisa).
+                </p>
+                <br>
+                <p>
+                    Janssen (Johnson & Johnson)
+                </p>
+                <br>
+                <div class="flex">
+                    De acordo com os estudos clínicos publicados pela Janssen sobre a vacina Ad26.COV2.S, verificou-se a
+                    eficácia global de 66,9% na prevenção contra a COVID-19, após 14 dias da aplicação do imunizante. No
+                    estudo, também verificou-se que nenhum dos pacientes imunizados necessitaram de hospitalização,
+                    apresentando eficácia ainda maior na prevenção de casos graves.
+                </div>
+                <br>
+                <p>
+                    CoronaVac(Butantan)
+                </p><br>
+                <div class="flex">
+                    Sabe-se até o momento que a Coronavac tem uma eficácia média global de 50,38%, e 78% para casos
+                    leves e de 100% em casos graves e moderados.
+                </div>
+            </div>
+        </div>
+        <!-- FIM acorddion -->
+            
+        
+     </main>
+     
+     <aside> <!--Início LIBRAS-->
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+            <script>
+                new window.VLibras.Widget('https://vlibras.gov.br/app');
+            </script>
+        </div>
+    </aside> <!--fim LIBRAS-->
+    
+    <!-- Botao Voltar ao Topo -->
+    <a href="#logo" id="voltar">Topo</a>
+    <!-- Botao Voltar ao Topo -->
+
+    <footer>
+        <div id="informacoes">
+            Secretaria Municipal da Saúde <br> 
+            Coordenadoria de Vigilância de Saúde<br><br>
+            (XX) XXXX-XXXX
+        </div>
+        <div id="rodape_links">
+            <section>
+                <a href="https://twitter.com/SoulCodeAcademy" target="_blank"><img src="imagens/twitter.png" alt="twitter"></a>
+                <a href="https://web.facebook.com/SoulCodeAcademy?_rdc=1&_rdr" target="_blank"><img src="imagens/facebook.png" alt="facebook" target="_blank"></a>
+                <a href="https://web.facebook.com/SoulCodeAcademy?_rdc=1&_rdr
+                https://twitter.com/SoulCodeAcademy
+                https://www.instagram.com/soulcodeacademy/" target="_blank"><img src="imagens/instagram.png" alt="instagram"></a>
+            </section>
+            &copy; Prefeitura de Jay Query, 2021
+        </div>
+        <div id="data_hora">
+            <a href="https://api.whatsapp.com/send/?phone=5511911120734&text=Ol%C3%A1+quero+informa%C3%A7%C3%B5es+sobre+a+SoulCode+Academy&app_absent=0" target="_blank"><img src="imagens/156_logo.png" alt="156"></a>
+            <section id="funcao_data_hora">
+                
+            </section>
+        </div>
+    </footer>
+    
+    <!-- SCRIPTS -->
+    <script src="libs/slick/slick.js"></script> <!--SLICK JS-->
+    <script src="js/default.js"></script>
+    <script src="js/index.js"></script>
+    <!-- SCRIPTS FIM-->
+</body>
+</html>

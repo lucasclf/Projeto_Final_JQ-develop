@@ -1,0 +1,132 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    align-items: center;
+    justify-items: center; 
+}
+
+/* SOBRE NÓS */
+main section{
+    padding: 20px;
+    width: 939px;
+    border-radius: 16px;
+    border: 1px solid;
+    margin: 40px;
+    text-align: justify;
+    background-color: rgb(189, 227, 230);
+}
+
+main h2{
+    background-color: rgb(197,234,239);
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+#sobre ul{
+    /* border: 1px solid; */
+    width: 200px;
+    margin-left: 20px;
+}
+
+#sobre button{
+    /* border: none; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    height: 40px;
+    width: 200px;
+    font-size: inherit;
+    font-weight: bold;
+    background-color: rgb(197,234,239);
+    text-align: center;
+}
+
+#sobre button:hover{
+    background: #2098D1;
+    color: white;
+}
+
+#sobre p{
+    margin: 5px 0 5px 0;
+}
+    /* mapa */
+#espaco_mapa{
+    border: 1px solid;
+    border: 1px solid;
+    padding: 30px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background-color: rgb(197,234,239);
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+#mapa{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+/* DESENVOLVEDORES */
+#tabs img{
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    border: rgb(197,234,239) 2px solid;
+}
+
+#tabs p{
+    width: 500px;
+    margin-left: 30px;
+    text-align: justify;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+#tabs-1, #tabs-2, #tabs-3, #tabs-4, #tabs-5, #tabs-6{
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e2eff5;
+}
+
+#tabs p img{
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+/* Galeria */
+#galeria{
+    border: 1px solid;
+    height: 500px;
+    width: 100%;
+    overflow: auto;
+    background-color: #e2eff5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#galeria img{
+    margin: 20px;
+    flex-grow: 1;
+    width: 180px;
+    height: 180px;
+    border-radius: 16px;
+} 
+
+#galeria img:hover{
+    border: 5px solid #2098D1;
+}  

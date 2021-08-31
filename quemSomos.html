@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" />
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/index.css">
+    
+    <!-- JQ UI -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- JQ UI FIM-->
+    <link rel="stylesheet" href="css/quemsomos.css"><!--QUEM SOMOS CSS-->
+    <script src="js/quemsomos.js"></script> <!--QUEM SOMOS JS-->
+    <title>Home</title>
+    <!-- script ui -->
+    <script>
+        $( function() {
+          $( "#tabs" ).tabs();
+        } );
+    </script>
+    <!-- script ui -->
+</head>
+<body>
+    
+    <header><!--Inicio do cabeçalho-->
+        
+        <a href="./index.html" id="logo">
+                <img src="imagens/logo2.png" alt="logo">
+        </a>
+        
+        <div id="titulo">
+            <p>
+                <strong>Portal de Atendimento</strong>
+                <br>
+                Prefeitura de Jay Query
+            </p>
+        </div>
+        
+        <div id="div_botoes">
+            <button id="btnNoturno">
+                <img src="imagens/noturno.png" alt="noturno">
+            </button>
+            <button id="btnFontMaior">A+</button>
+            <button id="btnFontMenor">A-</button>
+        </div>
+    </header><!--FIM do cabeçalho-->
+
+     <nav class="navegacao_principal">
+        <ul class="menu_principal" id="menu">
+            <a href="./index.html"><li>Home</li></a>
+            <a href="./quemSomos.html"><li>Quem Somos</li></a>
+            <a href="./informacoes.html"><li>Informações</li></a>
+            <a href="./cadastro.html"><li id="cadastro">Cadastro</li></a>
+        </ul>
+     </nav>
+     
+     <main>
+        <!-- Início QUEM SOMOS -->
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>
+                O portal da Prefeitura da Cidade de Jey Query foi construído a partir de pesquisas sobre usabilidade e acessibilidade. Usabilidade para o munícipe encontrar a informação que deseja da melhor forma, e de um jeito mais fácil e intuitivo, e acessibilidade para incluir cidadãs e cidadãos com deficiências no uso de produtos, serviços e informações disponibilizados pela Prefeitura na internet.
+                <br><br>
+                <ul type="square">
+                    <li>Lorem</li>
+                    <li>ipsum dolor</li>
+                    <li>sit amet consectetur</li>
+                    <li>laborum</li>
+                    <li>adipisci aliquam</li>
+                </ul>
+            </p>
+            <br>
+            <p>
+                A acessibilidade no Portal da Prefeitura está inserida na programação HTML das páginas, além disso é possível é possível controlar o tamanho das letras nas páginas.
+                <br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique suscipit a tenetur nesciunt voluptate unde sint atque neque, recusandae eaque. Eos cum commodi autem eaque repellendus in, nisi recusandae quas?
+                Incidunt maxime minus est quos inventore reprehenderit quis cupiditate impedit natus amet deserunt enim expedita molestiae distinctio, maiores reiciendis. Velit temporibus, molestiae nostrum quia reiciendis accusantium minus atque? Inventore, architecto.
+            </p>
+            
+            <button id="local">Onde estamos</button>
+            <!-- Início mapa -->
+            <div id="espaco_mapa">
+                <div id="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.302367056457!2d-46.688518685069816!3d-23.59348658466697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5746406ee8f7%3A0x32bbd06ffc892321!2sSoul%20Code%20Academy!5e0!3m2!1spt-BR!2sbr!4v1629639827914!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <p>
+                <a href="https://www.google.com/maps/place/Soul+Code+Academy/@-23.593447,-46.685558,15z/data=!4m5!3m4!1s0x0:0x32bbd06ffc892321!8m2!3d-23.5933752!4d-46.686365?hl=pt-BR"><img src="imagens/001-location.png" alt="local"></a> Rua Helena, 235 - Vila Olímpia - São Paulo/SP
+                </p>
+                
+                <p>
+                    <a href=""><img src="imagens/004-call.png" alt="fone"></a> +55 (XX) XXXX-XXXX
+                </p>
+                
+                <p>
+                    <a href=""><img src="imagens/002-email.png" alt="email"></a> jayquery@prefeitura.com
+                </p>
+                
+                <p>
+                    <a href=""><img src="imagens/003-globe.png" alt="site"></a> www.prefeitura_jayquery.com
+                </p>
+            </div>
+            <!-- Início mapa -->
+        </section>
+        <!-- Início QUEM SOMOS -->
+        
+        <!-- DESENVOLDEROS -->
+        <section>
+            <h2>Desenvolvedores</h2>
+            <div id="tabs">
+                <ul>
+                  <li><a href="#tabs-1">Alessandra Souza</a></li>
+                  <li><a href="#tabs-2">Eduardo Di Nizo</a></li>
+                  <li><a href="#tabs-3">John Gerber</a></li>
+                  <li><a href="#tabs-4">Lucas Coquenão</a></li>
+                  <li><a href="#tabs-5">Mariane Freitas</a></li>
+                  <li><a href="#tabs-6">Wanessa Lanne</a></li>
+                </ul>
+                <div id="tabs-1">
+                  <aside><img src="imagens/alessandra.jpeg" alt="Alessandra"></aside>
+                  <p> 
+                    <a href="https://www.linkedin.com/in/alessandra-souza-295122199/" target="_blank">
+                        <img src="imagens/linkedin.png" alt="linkedin-alessandra">
+                    </a>
+                    <br><br>
+                    Bacharel em Administração de Empresas. Estudante de Desenvolvimento Full-Stack na SoulCode Academy. Apaixonada por viajar e mãe em tempo integral.
+                </p> 
+                </div>
+                <div id="tabs-2">
+                    <aside><img src="imagens/eduardo.jpg" alt="Eduardo"></aside>
+                    <p> 
+                        <a href="https://www.linkedin.com/in/dinizoeduardo/" target="_blank">
+                            <img src="imagens/linkedin.png" alt="linkedin-eduardo">
+                        </a>
+                        <br><br>
+                        Apaixonado em dar vida à ideias através de códigos. Atualmente cursando o 3º semestre em Análise e Desenvolvimento de Sistemas, tenho como maior objetivo me tornar um desenvolvedor full-stack.
+                    </p> 
+                </div>
+                <div id="tabs-3">
+                    <aside><img src="imagens/john2.jpeg" alt="John"></aside>
+                    <p> 
+                        <a href="https://www.linkedin.com/in/john-gerber-51a12970/" target="_blank">
+                            <img src="imagens/linkedin.png" alt="linkedin-john">
+                        </a>
+                        <br><br>
+                        Comecei minha história profissional como autônomo, desmontando e configurando computadores. Mais tarde parti para a área comercial e administrativa em uma concessionária de energia elétrica. Atualmente estou mais uma vez atrás desse sonho na área de TI, buscando me especializar em linguagens para tecnologias baseadas na Web.
+                    </p> 
+                </div>
+                <div id="tabs-4">
+                    <aside><img src="imagens/lucas2.jpeg" alt="Lucas"></aside>
+                    <p> 
+                        <a href="https://www.linkedin.com/in/lucas-coquen%C3%A3o-lemos-ferreira-7b131827/" target="_blank">
+                            <img src="imagens/linkedin.png" alt="linkedin-lucas">
+                        </a>
+                        <br><br>
+                        Atuou na advocacia por 10 anos, em busca de uma transição de carreira para a área da programação. Com grande interesse na área de back-end, vem desenvolvendo suas habilidades como developer fullstack web com a SoulCode Academy.
+                    </p> 
+                </div>
+                <div id="tabs-5">
+                    <aside><img src="imagens/mariane.jpeg" alt="Mariane"></aside>
+                    <p> 
+                        <a href="https://www.linkedin.com/in/marianedefreitas/" target="_blank">
+                            <img src="imagens/linkedin.png" alt="linkedin-mariane">
+                        </a>
+                        <br><br>
+                        Estudante Web FullStack na SoulCode Academy...
+                        completa com lorem ipsum. Inventore consectetur reiciendis alias voluptatibus hic nostrum amet impedit laudantium eum natus, sit, eligendi ea eaque quaerat ex quas odit reprehenderit mollitia?
+                    </p> 
+                </div>
+                <div id="tabs-6">
+                    <aside><img src="imagens/wanessa.jpeg" alt="Wanessa"></aside>
+                    <p> 
+                        <a href="https://www.linkedin.com/in/wanessa-lanne-3994a3207/" target="_blank">
+                            <img src="imagens/linkedin.png" alt="linkedin-wanessa">
+                        </a>
+                        <br><br>
+                        Estudante do 5º período de Estética e Cosmética que resolveu se aventurar no mundo da programação como autodidata e encontrou sua paixão. Atualmente estuda Desenvolvimento Full Stack na SoulCode Academy em tempo integral e almeja brevemente conquistar seu espaço no mercado de trabalho na área da tecnologia. Assiste uns doramas de vez em quando, apaixonada por gatos, ama viajar e também se aventurar no mundo gastronômico. 
+                    </p> 
+                </div>
+            </div>
+              
+        </section>
+        <!-- DESENVOLVEDORES FIM -->
+
+        <!-- INICIO GALERIA -->
+        <section>
+            <h2>Galeria</h2>
+            <div id="galeria">
+                <img src="imagens/foto1.jpg" alt="">
+                <img src="imagens/foto2.jpg" alt="">
+                <img src="imagens/foto3.jpg" alt="">
+                <img src="imagens/foto4.jpg" alt="">
+                <img src="imagens/foto5.jpg" alt="">
+                <img src="imagens/foto6.jpg" alt="">
+                <img src="imagens/foto7.jpg" alt="">
+                <img src="imagens/foto1.jpg" alt="">
+                <img src="imagens/foto2.jpg" alt="">
+                <img src="imagens/foto3.jpg" alt="">
+                <img src="imagens/foto4.jpg" alt="">
+                <img src="imagens/foto5.jpg" alt="">
+                <img src="imagens/foto6.jpg" alt="">
+                <img src="imagens/foto7.jpg" alt="">
+                <img src="imagens/foto1.jpg" alt="">
+                
+            </div>
+        </section>
+        <!-- INICIO FIM -->
+     </main>
+     
+     <aside> <!--Início LIBRAS-->
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+            <script>
+                new window.VLibras.Widget('https://vlibras.gov.br/app');
+            </script>
+        </div>
+    </aside> <!--fim LIBRAS-->
+    
+    <!-- Botao Voltar ao Topo -->
+    <a href="#logo" id="voltar">Topo</a>
+    <!-- Botao Voltar ao Topo -->
+
+    <footer>
+        <div id="informacoes">
+            Secretaria Municipal da Saúde <br> 
+            Coordenadoria de Vigilância de Saúde<br><br>
+            (XX) XXXX-XXXX
+        </div>
+        <div id="rodape_links">
+            <section>
+                <a href="https://twitter.com/SoulCodeAcademy" target="_blank"><img src="imagens/twitter.png" alt="twitter"></a>
+                <a href="https://web.facebook.com/SoulCodeAcademy?_rdc=1&_rdr" target="_blank"><img src="imagens/facebook.png" alt="facebook" target="_blank"></a>
+                <a href="https://web.facebook.com/SoulCodeAcademy?_rdc=1&_rdr
+                https://twitter.com/SoulCodeAcademy
+                https://www.instagram.com/soulcodeacademy/" target="_blank"><img src="imagens/instagram.png" alt="instagram"></a>
+            </section>
+            &copy; Prefeitura de Jay Query, 2021
+        </div>
+        <div id="data_hora">
+            <a href="https://api.whatsapp.com/send/?phone=5511911120734&text=Ol%C3%A1+quero+informa%C3%A7%C3%B5es+sobre+a+SoulCode+Academy&app_absent=0" target="_blank"><img src="imagens/156_logo.png" alt="156"></a>
+            <section id="funcao_data_hora">
+                
+            </section>
+        </div>
+    </footer>
+
+    <script src="js/default.js"></script>
+</body>
+</html>

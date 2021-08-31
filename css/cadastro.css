@@ -1,0 +1,77 @@
+.gestante, .comorbidade {
+    display: none
+}
+
+
+.branco {
+    display: none
+}
+#btn_form {
+    background: rgb(197, 234, 239);
+    font-size: 20px;
+    font-variant: small-caps;
+    border-radius: 16px;
+    width: 100px;
+    height: 50px;
+}
+
+form {
+    background: rgba(54, 121, 125, 0.3);
+    border-radius: 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50vw;
+}
+
+form div {
+    margin: 0px 5px 0px 5px;
+}
+
+form input[type=text], form input[type=date], form select {
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+    height: 30px;
+}
+
+form input[type=text] {
+    padding: 7px;
+}
+
+#status {
+    width: 30vw;
+    height: 20vh;
+    text-align: justify;
+}
+
+main {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+}
+
+#barra {
+    width: 80%;
+    height: 4vh;
+    border-radius: 16px;
+    border: 1px rgba(64,128,128,0.8) solid;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+#barraPreenchimento{
+    background-color: rgba(64,128,128,0.8);
+    width: 0%;
+    height: 4vh;
+    border-radius: 16px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.noturnoHeaderFooter{
+    background: linear-gradient(rgba(54,121,125,1) 100%, rgba(93,174,185,1) 55%, rgba(228,252,255,1) 0%);
+}
+
